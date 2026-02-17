@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #1a0000, #000000);
-   
+    font-family: sans-serif;
+   background-color:#280202 ;
 }
 
 header {
@@ -10,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
-    background: linear-gradient(180deg, #7a0000, #3a0000);
+    background-color:#560808;
 }
 
 .logo {
@@ -24,19 +23,16 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight:bold;
     display:flex;
-    color: black;
-    background: white;
+    color: red;
     padding: 8px 14px;
     border-radius: 6px;
     transition: 0.2s;
 }
 
-.nav-link:hover {
-    background: #ff3b3b;
-    color: white;
-}
+
 
 
 .zagol {
@@ -44,20 +40,22 @@ nav {
     font-size: 40px;
     color: #ff2a2a;
     margin: 20px 0;
+   
 }
 
 
 .info {
-    display:flex;
-  
+    display:flex; 
     gap: 20px;
     padding: 20px;
     color: #ffb3b3;
+      font-size:20px;
+
 }
 
 
 article {
-    background: rgba(60,0,0,0.8);
+    background-color: rgba(60,0,0,0.8);
     padding: 15px;
     border-radius: 12px;
 }
@@ -68,21 +66,25 @@ article {
     justify-content: center;
     align-items: center;
      display:flex;
-    
-}
-
-.img  {
-    height: 350px;
+      height: 750px;
     border-radius: 12px;
     box-shadow: 0 0 15px red;
     
 }
 
 
+
 .zagolovok {
     color: #ff4d4d;
 }
+ 
+ .chikavifakti{
+     color:#ffb3b3;
+     font-size:20px;
+     padding:15px ;
+     margin:15px ;
 
+ }
 
 footer {
     margin-top: 20px;
@@ -90,5 +92,5 @@ footer {
     text-align: center;
     background: linear-gradient(180deg, #3a0000, #120000);
     color: #ffb3b3;
-    font-size: 14px;
+    font-size: 20px;
 }
